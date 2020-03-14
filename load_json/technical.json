@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Write a Heap Sort Program",
+    "answer": "def heapify(arr, n, i):\n    largest = i\n    l = 2 * i + 1\n    r = 2 * i + 2\n    if l < n and arr[i] < arr[l]:\n        largest = l\n    if r < n and arr[largest] < arr[r]:\n        largest = r\n    if largest != i:\n        arr[i],arr[largest] = arr[largest],arr[i]\n        heapify(arr, n, largest)\n\ndef heapSort(arr):\n    n = len(arr)\n    for i in range(n, -1, -1):\n        heapify(arr, n, i)\n    for i in range(n-1, 0, -1):\n        arr[i], arr[0] = arr[0], arr[i]\n        heapify(arr, i, 0)\narr = [ 12, 11, 13, 5, 6, 7]\nheapSort(arr)\nn = len(arr)\nprint (\"Sorted array is:\")\nfor i in range(n):\n    print (\"%d\" %arr[i])",
+    "company": "Microsoft"
+  },
+  {
+    "question": "What is JIT compiler?",
+    "answer": "Just-In-Time(JIT) compiler: It is used to improve the performance. JIT compiles parts of the bytecode that have similar functionality at the same time, and hence reduces the amount of time needed for compilation. Here the term “compiler” refers to a translator from the instruction set of a Java virtual machine (JVM) to the instruction set of a specific CPU.",
+    "company": "Avizva"
+  },
+  {
+    "question": "What are Cookies?",
+    "answer": "Cookies are small files which are stored on a user's computer. They are designed to hold a modest amount of data specific to a particular client and website, and can be accessed either by the web server or the client computer.",
+    "company": "Accenture"
+  },
+  {
+    "question": "Is Empty .java file name a valid source file name?",
+    "answer": "Yes, Java allows to save our java file by .java only, we need to compile it by javac .java and run by java classname Let's take a simple example:\n\n//save by .java only  \nclass A{  \npublic static void main(String args[]){  \nSystem.out.println(\"Hello java\");  \n}  \n}  \n//compile by javac .java  \n//run by java A  ",
+    "company": "TCS"
+  },
+  {
+    "question": "What is Cloud Computing?",
+    "answer": "Cloud Computing means storing and accessing data and programs over the Internet instead of your computer's hard drive",
+    "company": "IBM"
+  },
+  {
+    "question": "Explain some important differences between C & C++",
+    "answer": "\n1.C was developed by Dennis Ritchie between 1969 and 1973 whereas C++ was developed by Bjarne Stroustrup in 1979\n\n2.C is Procedural language whereas C++ is an Object Oriented language\n\n3.C is a subset of C++\n\n4.C does'nt support Polymorphism, Inheritance, encapsulation,etc while C++ supports all this",
+    "company": "Infosys"
+  },
+  {
+    "question": "What do you mean by platform independence?",
+    "answer": "The meaning of platform independence is that, the java source code can run on all operating systems.A program is written in a language which is human readable language which is known as source code.The compiler translates this source code into machine executable code.",
+    "company": "Infosys"
+  },
+  {
+    "question": "What is null pointer?",
+    "answer": "A null pointer is a pointer that does not point to any object or function.",
+    "company": "Infosys"
+  },
+  {
+    "question": "Write a Program to Extract Substrings from a given string",
+    "answer": "#include <iostream>\n#include <string>\nusing namespace std;\nvoid substring(string str, int start, int length)\n{\n\tint i=start, j;\n\tstring substr;\n\tfor(j = 0; str[i] !='\\0' && length > 0; i++, j ++)\n\t\t{\n\t\t\tsubstr[j] = str[i];\n\t\t\tlength--;\n\t\t}\n\tsubstr[j] = '\\0';\ncout<<\"\\n\";\n\tfor(int k=0;substr[k]!='\\0';k++)\n\t    cout<<substr[k];\n}\nint main()\n{\n\tstring str;\n\tint start,endlen,len;\n\tcout<<\"Enter a string: \";\n\tgetline(cin,str);\n\tlen=str.length();\n\tcout<<\"\\n Enter starting position of substring : \";\n\tcin>>start ;\n\tcout<<\"\\n Enter length of substring: \" ;\n\tcin>>endlen;\n\tif(start > 0 && start < 30 && endlen<len )\n\t\tsubstring(str,start,endlen);\n\telse\n\t\tcout<<\"Values are invalid\\n\";\n\treturn 0;\n}",
+    "company": "Dell"
+  },
+  {
+    "question": "Program to print inverted Floyd’s triangle star pattern in C++\n* * * * *\n* * * *\n* * *\n* *\n*",
+    "answer": "#include <iostream>\nusing namespace std;\nint  main()\n{\n   int n;\n   cout<<\"Enter number of rows: \";\n   cin>>n;\n   cout<<\"\\n\";\n   for (int i = n; i >= 1; --i)\n   {\n      for (int j = 1; j<= i; ++j)\n      {\n         cout<<\"* \";\n      }\n      cout<<\"\\n\";\n   }\n   return 0;\n}",
+    "company": "Capegemini"
+  },
+  {
+    "question": "Where can one use dataset.clone()?",
+    "answer": "Dataset.clone copies just the structure of dataset (including all the datatables, schemas, relations and constraints) however it doesn’t copy the data. Dataset.copy copies both the dataset structure and the data",
+    "company": "Capegemini"
+  },
+  {
+    "question": "Write a Program to print Pascal Triangle",
+    "answer": "import java.util.*;\nclass PascalTriangle\n{\npublic static void main()\n{\nScanner inp=new Scanner(System.in);\nSystem.out.print(\"\\n Enter Any Character: \");\nchar c=((inp.nextLine()).charAt(0));\nSystem.out.print(\"\\n Enter Size Limit: \");\nint n=inp.nextInt();\nint i,j,k,x=1;\nSystem.out.println(\"Pascal Triangle: \\n\");\n\nfor(i=0;i<n;i++)\n{\nfor(j=n;j>i;j--)\n{\nSystem.out.print(\" \");\n}\nx=1;\nfor(j=0;j<=i;j++)\n{\nSystem.out.print(c+\" \");\nx=x*(i-j)/(j+1);\n}\nSystem.out.println();\n}\n}\n}",
+    "company": "Dell"
+  },
+  {
+    "question": "What is dangling pointer in C?",
+    "answer": "Dangling pointers arise when an object is deleted or de-allocated, without modifying the value of the pointer, so that the pointer still points to the memory location of the de-allocated memory. In short pointer pointing to non-existing memory location is called dangling pointer.",
+    "company": "Cognizant"
+  },
+  {
+    "question": "What is the output of the following Java program?\nclass Test   \n{  \n    public static void main (String args[])   \n    {  \n        System.out.println(10 * 20 + \"Javatpoint\");   \n        System.out.println(\"Javatpoint\" + 10 * 20);  \n    }  \n}  ",
+    "answer": "200Javatpoint\nJavatpoint200",
+    "company": "Infosys"
+  },
+  {
+    "question": "Write a Program to check vowel or consonant using if-else",
+    "answer": "import java.util.*;\nclass CheckVowel\n{\npublic static void main()\n{\nScanner inp=new Scanner(System.in);\nSystem.out.print(\"\\n Enter Character: \");\nchar c=((inp.nextLine()).charAt(0));\nchar z=Character.toUpperCase(c); //Changing Value to UpperCase for uniformity.\n\nif(z=='A' || z=='E' || z=='I' || z=='O' || z=='U')    //Checking if Vowel\n  System.out.println(c+\" is a Vowel.\");\nelse\n   System.out.println(c+\" is not a Vowel.\");\n}\n}",
+    "company": "TCS"
+  },
+  {
+    "question": "What is the static variable?",
+    "answer": "The static variable is used to refer to the common property of all objects (that is not unique for each object), e.g., The company name of employees, college name of students, etc. Static variable gets memory only once in the class area at the time of class loading. Using a static variable makes your program more memory efficient (it saves memory). Static variable belongs to the class rather than the object. ",
+    "company": "Capegemini"
+  },
+  {
+    "question": " What is the static block?",
+    "answer": "Static block is used to initialize the static data member. It is executed before the main method, at the time of classloading.",
+    "company": "Infosys"
+  },
+  {
+    "question": "Write a Program for Cohen Sutherland Line Clipping",
+    "answer": "#include<stdio.h>\n#include<stdlib.h>\n#include<math.h>\n#include<graphics.h>\n#include<dos.h>\n\ntypedef struct coord\n{\n\tint x,y;\n\tchar code[4];\n}PT;\n\nvoid drawwindow();\nvoid drawline(PT p1,PT p2);\nPT setcode(PT p);\nint visibility(PT p1,PT p2);\nPT resetendpt(PT p1,PT p2);\n\nvoid main()\n{\n\tint gd=DETECT,v,gm;\n\tPT p1,p2,p3,p4,ptemp;\n\n\tprintf(\"\\nEnter x1 and y1\\n\");\n\tscanf(\"%d %d\",&p1.x,&p1.y);\n\tprintf(\"\\nEnter x2 and y2\\n\");\n\tscanf(\"%d %d\",&p2.x,&p2.y);\n\n\tinitgraph(&gd,&gm,\"c:\\\\turboc3\\\\bgi\");\n\tdrawwindow();\n\tdelay(500);\n\n\tdrawline(p1,p2);\n\tdelay(500);\n\tcleardevice();\n\n\tdelay(500);\n\tp1=setcode(p1);\n\tp2=setcode(p2);\n\tv=visibility(p1,p2);\n\tdelay(500);\n\n\tswitch(v)\n\t{\n\tcase 0: drawwindow();\n\t\t\tdelay(500);\n\t\t\tdrawline(p1,p2);\n\t\t\tbreak;\n\tcase 1:\tdrawwindow();\n\t\t\tdelay(500);\n\t\t\tbreak;\n\tcase 2:\tp3=resetendpt(p1,p2);\n\t\t\tp4=resetendpt(p2,p1);\n\t\t\tdrawwindow();\n\t\t\tdelay(500);\n\t\t\tdrawline(p3,p4);\n\t\t\tbreak;\n\t}\n\n\tdelay(5000);\n\tclosegraph();\n}\n\nvoid drawwindow()\n{\n\tline(150,100,450,100);\n\tline(450,100,450,350);\n\tline(450,350,150,350);\n\tline(150,350,150,100);\n}\n\nvoid drawline(PT p1,PT p2)\n{\n\tline(p1.x,p1.y,p2.x,p2.y);\n}\n\nPT setcode(PT p)\t//for setting the 4 bit code\n{\n\tPT ptemp;\n\n\tif(p.y<100)\n\t\tptemp.code[0]='1';\t//Top\n\telse\n\t\tptemp.code[0]='0';\n\n\tif(p.y>350)\n\t\tptemp.code[1]='1';\t//Bottom\n\telse\n\t\tptemp.code[1]='0';\n\n\tif(p.x>450)\n\t\tptemp.code[2]='1';\t//Right\n\telse\n\t\tptemp.code[2]='0';\n\n\tif(p.x<150)\n\t\tptemp.code[3]='1';\t//Left\n\telse\n\t\tptemp.code[3]='0';\n\n\tptemp.x=p.x;\n\tptemp.y=p.y;\n\n\treturn(ptemp);\n}\n\nint visibility(PT p1,PT p2)\n{\n\tint i,flag=0;\n\n\tfor(i=0;i<4;i++)\n\t{\n\t\tif((p1.code[i]!='0') || (p2.code[i]!='0'))\n\t\t\tflag=1;\n\t}\n\n\tif(flag==0)\n\t\treturn(0);\n\n\tfor(i=0;i<4;i++)\n\t{\n\t\tif((p1.code[i]==p2.code[i]) && (p1.code[i]=='1'))\n\t\t\tflag='0';\n\t}\n\n\tif(flag==0)\n\t\treturn(1);\n\n\treturn(2);\n}\n\nPT resetendpt(PT p1,PT p2)\n{\n\tPT temp;\n\tint x,y,i;\n\tfloat m,k;\n\n\tif(p1.code[3]=='1')\n\t\tx=150;\n\n\tif(p1.code[2]=='1')\n\t\tx=450;\n\n\tif((p1.code[3]=='1') || (p1.code[2]=='1'))\n\t{\n\t\tm=(float)(p2.y-p1.y)/(p2.x-p1.x);\n\t\tk=(p1.y+(m*(x-p1.x)));\n\t\ttemp.y=k;\n\t\ttemp.x=x;\n\n\t\tfor(i=0;i<4;i++)\n\t\t\ttemp.code[i]=p1.code[i];\n\n\t\tif(temp.y<=350 && temp.y>=100)\n\t\t\treturn (temp);\n\t}\n\n\tif(p1.code[0]=='1')\n\t\ty=100;\n\n\tif(p1.code[1]=='1')\n\t\ty=350;\n\n\tif((p1.code[0]=='1') || (p1.code[1]=='1'))\n\t{\n\t\tm=(float)(p2.y-p1.y)/(p2.x-p1.x);\n\t\tk=(float)p1.x+(float)(y-p1.y)/m;\n\t\ttemp.x=k;\n\t\ttemp.y=y;\n\n\t\tfor(i=0;i<4;i++)\n\t\t\ttemp.code[i]=p1.code[i];\n\n\t\treturn(temp);\n\t}\n\telse\n\t\treturn(p1);\n}",
+    "company": "Asian Paints"
+  },
+  {
+    "question": "How can constructor chaining be done using this keyword?",
+    "answer": "Constructor chaining enables us to call one constructor from another constructor of the class with respect to the current class object. We can use this keyword to perform constructor chaining within the same class. Consider the following example which illustrates how can we use this keyword to achieve constructor chaining.\n\npublic class Employee  \n{  \n    int id,age;   \n    String name, address;  \n    public Employee (int age)  \n    {  \n        this.age = age;  \n    }  \n    public Employee(int id, int age)  \n    {  \n        this(age);  \n        this.id = id;  \n    }  \n    public Employee(int id, int age, String name, String address)  \n    {  \n        this(id, age);  \n        this.name = name;   \n        this.address = address;   \n    }  \n    public static void main (String args[])  \n    {  \n        Employee emp = new Employee(105, 22, \"Vikas\", \"Delhi\");  \n        System.out.println(\"ID: \"+emp.id+\" Name:\"+emp.name+\" age:\"+emp.age+\" address: \"+emp.address);  \n    }     \n}  ",
+    "company": "Dell"
+  },
+  {
+    "question": "Write a Program to Removing Blank Spaces from a string",
+    "answer": "#include <stdio.h>\n\nint main()\n{\nchar *str1, modifiedstr[100];\nint i, j, size = 100;\n\nprintf(\"Enter a string of your choice\\n\");\nstr1 = (char*)malloc(size);\ngetline(&str1, &size, stdin);\n\n//Removing one or more blank spaces from string\n\nfor(i=0, j=0; str1[i] != '\\0'; i++, j++)\n{\nif(str1[i] == ' ')\n{\nwhile(str1[i] == ' ' && str1[i+1] == ' ')\n{\ni++;\n}\ni++;\n}\n\nmodifiedstr[j] = str1[i];\n}\n\nprintf(\"String after removal of blank spaces is as follows: \\n\");\nputs(modifiedstr);\n\nreturn 0;\n}",
+    "company": "Accenture"
+  }
+]

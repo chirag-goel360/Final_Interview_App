@@ -1,0 +1,152 @@
+[
+  {
+    "question": "The average age of a man and his son is 28 years. The ratio of their ages is 3 :1 respectively. What is the man's age?",
+    "answer": "Total sum of man's age & his son's age =28 × 2 = 56 Now, the Ratio of their ages is 3 : 1.Therefore, Man's age = (3/4) × 56 = 42",
+    "company": "Accenture"
+  },
+  {
+    "question": "In a game of tennis, A gives B 21 points and gives C 25 points. B gives C 10 points. How many points make the game?",
+    "answer": "When B scored p -10 then C scored p - 25.\nWhen B scores 1 then C scores (p-25)/(p-10)\nSo when B scores p points then C will score (p-25)/(p-10) × p\nAs per question (p-25)/(p-10) × p = p -10 . Solving this we get p = 35 ",
+    "company": "Adobe"
+  },
+  {
+    "question": "A trader sells two bullocks for Rs. 8,400 each, neither losing nor gaining in total. If he sold one of the bullocks at a gain of 20%, the other is sold at a loss of ",
+    "answer": "A trader sells two bullocks for Rs. 8,400 each, neither losing nor gaining in total.\nAs he sold one bullocks at a gain of 20%, it means 120% of C.P = 8400\nWe get C.P of one bullock = 7000\nSo gain on one bullock = Rs 1400\nOther bullocks is sold at lose and there is neither losing nor gaining in total\nSo loss on 2nd bullock = 1400/7000×100 = 20%",
+    "company": "Adobe"
+  },
+  {
+    "question": "A function f(x) is defined as f(x) = f(x - 2) - x(x + 2) for all the integer values of x and f(1) + f(4) = 0. What is the value of f(1) + f(2) + f(3) + f(4) + f(5) + f(6)?",
+    "answer": "Let S = f(1) + f(2) + f(3) + f(4) + f(5) + f(6)\nAs f(1) + f(4) = 0, therefore S = f(2) + f(3) + f(5) + f(6) ------ (1)\nf(2) = f(0) - 8\nf(3) = f(1) - 15\nf(4) = f(2) - 24 = f(0) - 32\nf(5) = f(3) - 35 = f(1) - 50\nf(6) = f(4) - 48 = f(0) - 80\nPut the above values in equation (1), we get\nS = f(0) - 8 + f(1) - 15 + f(1) - 50 + f(0) - 80\nS = 2(f(0) + f(1)) - 153 ------ (2)\nAs we already know f(1) + f(4) = 0 ⇒f(1) + f(0) - 32 = 0 ⇒f(1) + f(0) = 32\nPutting this value in equation 2, we get S = 2(32) - 153 = -89",
+    "company": "Amazon"
+  },
+  {
+    "question": "In ΔABC, the internal bisectors of ∠ABC and ∠ACB met at I and ∠BAC = 50°. The measure of ∠BIC is",
+    "answer": "I is the In-centre\nSo, ∠BIC = 90° + 1/2 ∠BAC\n= 90° + 1/2 × 50 = 115°",
+    "company": "Amazon"
+  },
+  {
+    "question": "A 30% loss on cost price is what percent loss on selling price?",
+    "answer": "Let CP = 100 ; SP=70\nLoss= 30/70 × 100 = 42.85%",
+    "company": "Capgemini"
+  },
+  {
+    "question": "A, B and C hire a taxi for Rs. 2400 for one day. A, B and C used the car for 6 hours, 8 hours and 10 hours respectively. How much did C pay? ",
+    "answer": "Let total fair be = 2400 ;\nTherefore c share =10/24 × 2400 = 1000",
+    "company": "Capgemini"
+  },
+  {
+    "question": "The list price of an article is Rs. 160 and a customer buys it for Rs. 122.40 after two successive discounts. If the first discount is 10%, then second discount is ",
+    "answer": "SP after a discount of 10%\n= (160*90) / 100 = Rs. 144\nSecond discount\n= 144 – 122.40 = Rs. 21.6\nIf the second discount be x% then\n(144*x)/100 = 21.6\nx = 15%",
+    "company": "Dell"
+  },
+  {
+    "question": "If a, b, c, d, e are five consecutive odd numbers, their average is",
+    "answer": "b = a + 2\nc = b + 2 = a + 4\nd = c + 2 = a + 6\ne = d + 2 = a + 8\nTherefore, Required average = (a + a + 2 + a + 4 + a + 6 + a + 8)/5\n= a + 4",
+    "company": "Dell"
+  },
+  {
+    "question": "The price of an article is first decreased by20% and then increased by 30%. If the resulting price is Rs. 416, the original price of the article is",
+    "answer": "If the original price of article be Rs. X, then\nx*(80/100)*(130/100)=416\nx= 400",
+    "company": "Dell"
+  },
+  {
+    "question": "The difference between the simple interest received from two different sources on Rs 3 lakhs for 2 years is rs 1,500. The difference between their rates of interest is",
+    "answer": "Let x and y be the interest rates.\nx% of 3 lakhs – y% of 3 lakhs = 1500\n(x– y) % of 3 lakhs = 1500\n300000(x – y)/100 = 1500\n(x – y) = 0.5% for 2 years \uF0DE For 1 year = 0.25%",
+    "company": "Google"
+  },
+  {
+    "question": "A spherical ball of lead, 3 cm in diameter is melted and recast into three spherical balls. The diameter of two of these is 1.5 cm and 2 cm respectively. The diameter of the third ball is ",
+    "answer": "The sum of the volumes of the new balls will equal the volume of the original ball. So, 1.5^3 = 0.75^3 + 1^3 + r^3. Solving this equation gives r = 1.25\nSo, d = 2.5 cm.",
+    "company": "Google"
+  },
+  {
+    "question": "Two pipes P and Q can fill a cistern in 3 and 6 minutes respectively, while an empty pipe R can empty the cistern in 4 minutes. All the three pipes are opened together and after 2 minutes pipe R is closed. Find when the tank will be full",
+    "answer": "1/3 + 1/6 – 1/4 = 3/12.\nWork done = 3 × 2 = 6.\nRemaining work = 12 – 6 = 6\nHence in addition to 2 minutes, 1 minute more will be needed.",
+    "company": "Godrej"
+  },
+  {
+    "question": "At what percentage above the cost price must an article be marked so as 10 gain 33% after allowing customer a discount of 5% ? ",
+    "answer": "Condition\nLet it be marked up by x%\nA.T.C. (Successive % age females)\nx-5-5x/100=33,\nx = 40",
+    "company": "Hewlett Packard(HP)"
+  },
+  {
+    "question": "If 40% of the number exceeds the 25% of it by 54. Find the number",
+    "answer": "0.4x - 0.25x = 54. x = 360.",
+    "company": "Hewlett Packard(HP)"
+  },
+  {
+    "question": "In a race of 600 metres, A can beat B by 60 metres and in a race of 500 metres, B can beat C by 50 metres. By how many metres will A beat C in a race of 400 metres? ",
+    "answer": "A runs B runs C runs\n600 metres race 600m 540 m\n500 metres race 500 m 450m\nCombing ratio A runs B runs C runs\n300metres - 2700meters - 2430metres\nUnitary A runs B runs C runs\nMethod 400mtres - 360 metres - 324 metres\n∴ A beats C by 400-324 = 76 metres.",
+    "company": "IBM"
+  },
+  {
+    "question": "A number is such that when it is multiplied by ‘8’, it gives another number which is as much more than 153 as the original number itself is less than 153. What is 25% of the original number?",
+    "answer": "Let the no. be x\nGiven 8x-153=153-x\nHence x=34\n25% of x=8.5",
+    "company": "JP-Morgan"
+  },
+  {
+    "question": "The HCF and LCM of two numbers are 12 and 924 respectively. Then the number of such pairs is",
+    "answer": "Let the numbers be 12x and 12y where x and y are prime to each other.\n∴ LCM = 12xy\n∴ 12xy = 924\n=> xy = 77\n∴ Possible pairs = (1,77) and (7,11)",
+    "company": "JP-Morgan"
+  },
+  {
+    "question": "On a particular day, sweets were to be equally distributed among 960 students of a school. However, on that particular day 360 students remained absent, Hence each student present on that day got three sweets extra. Had all 960 students remained present that day, how many sweets would each, student have got?",
+    "answer": "Let number of sweets per student = X\nAccording to the given conditions, we have\n960X = 600(X+3)\nX = 5",
+    "company": "Microsoft"
+  },
+  {
+    "question": "What would be the compound interest accrued on an amount of Rs9,000/- at the rate of 11 p.c.p.a. in two years ? ",
+    "answer": "CI = A-P\nCI = 9000 x(1+11/100)^2- 9000=2088.90",
+    "company": "Microsoft"
+  },
+  {
+    "question": "The sum of a series of 5 consecutive odd numbers is 195. The second lowest number of this series is one less than the second highest number of another series of 5 consecutive even numbers. What is 40% of the second lowest number of the series of consecutive even numbers?",
+    "answer": "The sum of the series of 5 Consecutive odd numbers is 195;\nLet the Series of Consecutive odd numbers is X, X+2, X+4, X+6, X+8 ;\nX+X+2+X+4+X+6+X+8 = 195 ;\n5X+20 = 195;\nX=35.\nSeries of consecutive odd numbers is 35, 37 , 39 , 41 ,43 ;\nAccording to the question ,the second lowest number of this series is less than the ;\nSecond highest number of another series of 5 consecutive numbers;\nSecond lowest number is 37;\nSecond highest number of another series of 5 consecutive numbers = 37 +1 = 38 ;\nTherefore , another series of 5 consecutive no 32 , 34 ,36 ,38 , 40 ;\n40% of the lowest of the series of consecutive numbers = 34 *40 / 100 = 13.6.",
+    "company": "Nokia"
+  },
+  {
+    "question": "A person covers a certain distance by travelling at a uniform speed of 120 km/h for 90 minutes. At what speed will he have to travel in order to cover the same distance in 1 hour 20 minutes? (in km/h)",
+    "answer": "Distance = 120 × 90/60 = 180 km\nSpeed required to cover 180 km in 1 hr 20 mins ( 4/3 hrs) =\n180 × ¾ = 135 km/hr.",
+    "company": "Paytm"
+  },
+  {
+    "question": "If 8 men can reap 80 hectares in 24 days, how many hectares can 36 men reap the same field in 36 days?",
+    "answer": "H = 80*36/8*36/24= 540 hectares",
+    "company": "Sandisk"
+  },
+  {
+    "question": "P, Q and R have a certain amount of money with themselves. Q has 50% more than what P has, and R has 1/3rd of ",
+    "answer": "Assume that P has 2x amount.\nTherefore, Q = 3x amount (50% more than P)\nAnd R = 3x × 1/3 = x\nRatio of P : Q : R = 2x : 3x : x = 2 : 3 : 1\nThus, P alone have = (2/6) × 240 = Rs. 80",
+    "company": "Walmart"
+  },
+  {
+    "question": "There were 35 students in a hostel. If the number of students increases by 7, the expenses of the mess increase by Rs. 42 per day while the average expenditure per head diminishes by Re 1. Find the original expenditure of the mess.",
+    "answer": "Let d be the average daily expenditure\nOriginal expenditure = 35 × d\nNew expenditure = 35 × d + 42\nNew average expenditure will be :\n(35 × d + 42)/42 = d - 1\nOn solving, we get d = 12\nTherefore original expenditure = 35 × 12 = 420",
+    "company": "Deloitte"
+  },
+  {
+    "question": "The ratio between the number of passengers travelling by I and II class between the two railway stations is 1 : 50, whereas the ratio of I and II class fares between the same stations is 3 : 1. If on a particular day Rs. 1,325 were collected from the passengers travelling between these stations, then what was the amount collected from the II class passengers? ",
+    "answer": "Let x be the number of passengers and y be the fare taken from passengers.\n3xy + 50xy = 1325 => xy = 25\nAmount collected from II class passengers = 25 × 50 = Rs. 1250.",
+    "company": "Deloitte"
+  },
+  {
+    "question": "A Chartered Accountant applies for a job in two firms X & Y. The probability of his being selected in firm X is 0.7, and being rejected at Y is 0.5 and the probability of rejection at least one of his applications is 0.6. What is the probability that he will be selected in one of the firms? ",
+    "answer": "P(X) = 0.7, P(Y) = 0.5 and P(X &union; Y) = 0.4. Therefore, P(X &intersection; Y) = P(X) + P(Y) – P(X &intersection; Y) = 0.7 + 0.5 – 0.4 = 0.8",
+    "company": "Fidelity"
+  },
+  {
+    "question": "A boat takes a total time of twelve hours to travel 105 kms upstream and the same distance downstream. The speed of the boat in still water is six times of the speed of the current. What is the speed of the boat in still water? (In km/hr)",
+    "answer": "Let ‘x’ be the speed of Boat in still water, and ‘y’ be the speed of current.\nThen, according to the question,\nSpeed of the boat in still water = 6 speed of current\nx = 6y\nAlso given that ,\n105/(x+y) +105/(x-y) =12\n105/7y +105/5y =12\n12y=36\ny=3\nTherefore, x= 6×3=18\nSpeed of the boat in still water= 18kmph",
+    "company": "Walmart"
+  },
+  {
+    "question": "The ratio of the ages of A and B is 4:3 respectively. The ratio of their ages eight years from now will be 6:5 respectively. How old was A, when B was 7 years old?",
+    "answer": "Let the ages of A and B be 4x and 3x respectively.\nnow after 8 years their ages will be 4x+8 and 3x+8\nthen according to question (4x+8)/(3x+8)=6/5 Then x will be 4.So present age of B is 12 and present age of A is 16.\nSo when B was 7 years old, A was 11 years old.",
+    "company": "Verifone"
+  },
+  {
+    "question": "The sum of the squares of the digits constituting a two-digit number is 10, and the product of the required number by the number consisting of the same digits written in the reverse order is 403. Find the number. ",
+    "answer": "1st condition is satisfied by 1st and 2nd options.\n2nd condition is also satisfied by both these options because (1)2 + (3)2 = 10 and (3)2 + (1)2 = 10.\nAlso 31*13 = 403 and 13*31 = 403",
+    "company": "Sandisk"
+  }
+]
