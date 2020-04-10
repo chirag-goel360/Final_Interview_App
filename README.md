@@ -30,6 +30,9 @@ JSON |
 - Ritik Miglani -Student of Amity School of Engineering and Technology(B.Tech. CSE)
 
         Email Address - 'miglaniritik20@gmail.com'
+- Natasha Mehta -Student of Amity School of Engineering and Technology(B.Tech. CSE)
+
+        Email Address - 'mehtanatasha23@gmail.com'
 
 Sample Code for interview_ques(main.dart)
 ```
