@@ -5,12 +5,13 @@ import 'aptitude.dart';
 import 'bussiness.dart';
 import 'home.dart';
 
-void main()=>runApp(
+void main(){
+  runApp(
   MyApp(),
 );
+}
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return DynamicTheme(
@@ -40,9 +41,9 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   int _currentindex = 0;
   final List<Widget> _baritems = [
     HomePage(),
-    android(),
+    Android(),
     Bussiness(),
-    aptitude(),
+    Aptitude(),
   ];
   void onTappedBar(int index)
   {

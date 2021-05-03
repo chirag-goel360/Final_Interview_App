@@ -11,12 +11,9 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 class _HomePageState extends State<HomePage>{
-
   void changeBrightness() {
     DynamicTheme.of(context).setBrightness(
-        Theme.of(context).brightness == Brightness.dark ?
-        Brightness.light :
-        Brightness.dark
+        Theme.of(context).brightness == Brightness.dark ? Brightness.light : Brightness.dark,
     );
   }
 
@@ -66,8 +63,9 @@ class _HomePageState extends State<HomePage>{
               ),
               onTap: (){
                 Navigator.of(context).pop();
-                Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context)=>
-                    About1(),
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context)=> About1(),
                 ),
                 );
               },
@@ -81,8 +79,9 @@ class _HomePageState extends State<HomePage>{
               ),
               onTap: (){
                 Navigator.of(context).pop();
-                Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) =>
-                    ContactUS(),
+                Navigator.of(context).push(
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => ContactUS(),
                 ),
                 );
               },
@@ -111,7 +110,8 @@ class _HomePageState extends State<HomePage>{
             Material(
               child: InkWell(
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (_){
+                  Navigator.push(
+                    context,MaterialPageRoute(builder: (_){
                     return InterviewTips();
                   },
                   ),
@@ -137,7 +137,8 @@ class _HomePageState extends State<HomePage>{
             Material(
               child: InkWell(
                 onTap: (){
-                  Navigator.push(context,MaterialPageRoute(builder: (_){
+                  Navigator.push(
+                    context,MaterialPageRoute(builder: (_){
                     return InterviewVideos();
                   },
                   ),

@@ -2,12 +2,11 @@ import 'dart:convert';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class aptitude extends StatefulWidget {
+class Aptitude extends StatefulWidget {
   @override
-  _aptitudeState createState() => _aptitudeState();
+  _AptitudeState createState() => _AptitudeState();
 }
-class _aptitudeState extends State<aptitude> {
-
+class _AptitudeState extends State<Aptitude> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +30,9 @@ class _aptitudeState extends State<aptitude> {
           Container(
             child: Center(
               child: FutureBuilder(
-                future: DefaultAssetBundle.of(context).loadString('load_json/aptiround.json'),
+                future: DefaultAssetBundle.of(context).loadString(
+                  'load_json/aptiround.json',
+                  ),
                 builder: (context, snapshot){
                   var mydata = jsonDecode(snapshot.data.toString());
                   return ListView.builder(
@@ -50,8 +51,9 @@ class _aptitudeState extends State<aptitude> {
                         child: InkWell(
                           splashColor: Colors.black54,
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) =>
-                                Scaffold(
+                            Navigator.push(
+                              context, MaterialPageRoute(
+                                builder: (context) => Scaffold(
                                   appBar: AppBar(
                                     title: Text(
                                       "Question",

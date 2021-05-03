@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class InterviewVideos extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return DynamicTheme(
@@ -30,7 +29,6 @@ class InterviewVid extends StatefulWidget {
 }
 
 class _InterviewVidState extends State<InterviewVid> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -69,7 +67,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.redAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/channel/UCGR3vMYA20JJDQvGFccujdA',
             ),
           ),
@@ -87,7 +85,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.pinkAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/playlist?list=PLVlQHNRLflP8IGz6OXwlV_lgHgc72aXlh',
             ),
           ),
@@ -105,7 +103,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.greenAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/playlist?list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ',
             ),
           ),
@@ -123,7 +121,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.purpleAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/playlist?list=PLkPmSWtWNIyQtpYf0Iq-myisH__8gRy4k',
             ),
           ),
@@ -141,7 +139,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.deepOrangeAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/playlist?list=PLpyc33gOcbVA4qXMoQ5vmhefTruk5t9lt',
             ),
           ),
@@ -159,7 +157,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.indigoAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/watch?v=Gka6UcJZ6FI',
             ),
           ),
@@ -177,7 +175,7 @@ class _InterviewVidState extends State<InterviewVid> {
                 color: Colors.deepPurpleAccent,
               ),
             ),
-            onTap: ()=> launch(
+            onTap: () => launch(
               'https://www.youtube.com/playlist?list=PLL_LQvNX4xKwbz1aJe0RofbT9YeJH9huQ',
             ),
           ),

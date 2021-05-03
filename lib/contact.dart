@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class ContactUS extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,7 +11,6 @@ class ContactUS extends StatelessWidget {
 }
 
 class Contact extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

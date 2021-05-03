@@ -2,7 +2,6 @@ import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/material.dart';
 
 class InterviewTips extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return DynamicTheme(
@@ -28,7 +27,6 @@ class InterviewTip extends StatefulWidget {
 }
 
 class _InterviewTipState extends State<InterviewTip> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -46,10 +44,20 @@ class _InterviewTipState extends State<InterviewTip> {
               fontSize: 18.0,
             ),
           ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
+            ),
+          ),
           Text(
             "2. Recruit a friend to practice answering questions.\n\nActually practicing your answers out loud is an incredibly effective way to prepare. Say them to yourself or ask a friend to help run through questions and answers. You’ll find you gain confidence as you get used to saying the words.\n",
             style: TextStyle(
               fontSize: 18.0,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
             ),
           ),
           Text(
@@ -58,10 +66,20 @@ class _InterviewTipState extends State<InterviewTip> {
               fontSize: 18.0,
             ),
           ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
+            ),
+          ),
           Text(
             "4. Bring copies of your resume, a notebook and pen.\n\nTake at least five copies of your printed resume on clean paper in case of multiple interviewers. Highlight specific accomplishments on your copy that you can easily refer to and discuss. Bring a pen and a small notebook. Prepare to take notes, but not on your smartphone or another electronic device. Write information down so that you can refer to these details in your follow-up thank-you notes. Maintain eye contact as much as possible.\n",
             style: TextStyle(
               fontSize: 18.0,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
             ),
           ),
           Text(
@@ -70,10 +88,20 @@ class _InterviewTipState extends State<InterviewTip> {
               fontSize: 18.0,
             ),
           ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
+            ),
+          ),
           Text(
             "6. Make a great first impression.\n\nDon’t forget the little things—shine your shoes, make sure your nails are clean and tidy, and check your clothes for holes, stains, pet hair and loose threads. Display confident body language and a smile throughout.\n",
             style: TextStyle(
               fontSize: 18.0,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
             ),
           ),
           Text(
@@ -82,10 +110,20 @@ class _InterviewTipState extends State<InterviewTip> {
               fontSize: 18.0,
             ),
           ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
+            ),
+          ),
           Text(
             "8. Practice good manners and body language.\n\nPractice confident, accessible body language from the moment you enter the building. Sit or stand tall with your shoulders back. Before the interview, take a deep breath and exhale slowly to manage feelings of anxiety and encourage self-confidence. The interviewer should extend their hand first to initiate a handshake. Stand, look the person in the eye and smile. A good handshake should be firm but not crush the other person’s fingers.\n",
             style: TextStyle(
               fontSize: 18.0,
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(
+              top:5,
             ),
           ),
         ],

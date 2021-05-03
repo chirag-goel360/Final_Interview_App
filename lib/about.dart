@@ -3,7 +3,6 @@ import 'package:url_launcher/url_launcher.dart'as url_launcher;
 import 'constants.dart';
 
 class About1 extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -1,13 +1,12 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 
-class android extends StatefulWidget {
+class Android extends StatefulWidget {
   @override
-  _androidState createState() => _androidState();
+  _AndroidState createState() => _AndroidState();
 }
 
-class _androidState extends State<android> {
-
+class _AndroidState extends State<Android> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -31,7 +30,9 @@ class _androidState extends State<android> {
           Container(
             child: Center(
               child: FutureBuilder(
-                future: DefaultAssetBundle.of(context).loadString('load_json/hrround.json'),
+                future: DefaultAssetBundle.of(context).loadString(
+                  'load_json/hrround.json',
+                  ),
                 builder: (context, snapshot){
                   var mydata = jsonDecode(snapshot.data.toString());
                   return ListView.builder(
@@ -50,8 +51,9 @@ class _androidState extends State<android> {
                         child: InkWell(
                           splashColor: Colors.black54,
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) =>
-                                Scaffold(
+                            Navigator.push(
+                              context, MaterialPageRoute(
+                                builder: (context) => Scaffold(
                                   appBar: AppBar(
                                     title: Text(
                                       "Question",

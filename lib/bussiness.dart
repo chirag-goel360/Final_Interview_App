@@ -8,7 +8,6 @@ class Bussiness extends StatefulWidget {
 }
 
 class _BussinessState extends State<Bussiness> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +31,9 @@ class _BussinessState extends State<Bussiness> {
           Container(
             child: Center(
               child: FutureBuilder(
-                future: DefaultAssetBundle.of(context).loadString('load_json/technical.json'),
+                future: DefaultAssetBundle.of(context).loadString(
+                  'load_json/technical.json',
+                  ),
                 builder: (context, snapshot){
                   var mydata = jsonDecode(snapshot.data.toString());
                   return ListView.builder(
@@ -51,8 +52,9 @@ class _BussinessState extends State<Bussiness> {
                         child: InkWell(
                           splashColor: Colors.black54,
                           onTap: () {
-                            Navigator.push(context, MaterialPageRoute(builder: (context) =>
-                                Scaffold(
+                            Navigator.push(
+                              context, MaterialPageRoute(
+                                builder: (context) => Scaffold(
                                   appBar: AppBar(
                                     title: Text(
                                       "Question",
