@@ -19,7 +19,7 @@ class Contact extends StatelessWidget {
         title: Text(
           "Contact Us",
           style: TextStyle(
-            fontSize:20.0,
+            fontSize: 20.0,
             fontWeight: FontWeight.bold,
           ),
         ),
@@ -50,7 +50,7 @@ class Contact extends StatelessWidget {
             ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              children:<Widget>[
+              children: <Widget>[
                 Padding(
                   padding: EdgeInsets.all(20.0),
                 ),
@@ -88,7 +88,7 @@ class Contact extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.only(
-                    top:30.0,
+                    top: 30.0,
                   ),
                 ),
                 Text(
@@ -120,7 +120,7 @@ class Contact extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.only(
-                    top:60.0,
+                    top: 60.0,
                   ),
                 ),
               ],

@@ -5,10 +5,10 @@ import 'aptitude.dart';
 import 'bussiness.dart';
 import 'home.dart';
 
-void main(){
+void main() {
   runApp(
-  MyApp(),
-);
+    MyApp(),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -45,8 +45,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
     Bussiness(),
     Aptitude(),
   ];
-  void onTappedBar(int index)
-  {
+  void onTappedBar(int index) {
     setState(() {
       _currentindex = index;
     });
@@ -60,7 +59,7 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
         onTap: onTappedBar,
         selectedItemColor: Colors.black54,
         currentIndex: _currentindex,
-        items:[
+        items: [
           BottomNavigationBarItem(
             icon: Icon(
               Icons.school,

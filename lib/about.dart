@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart'as url_launcher;
+import 'package:url_launcher/url_launcher.dart' as url_launcher;
 import 'constants.dart';
 
 class About1 extends StatelessWidget {

@@ -10,15 +10,18 @@ class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
-class _HomePageState extends State<HomePage>{
+
+class _HomePageState extends State<HomePage> {
   void changeBrightness() {
     DynamicTheme.of(context).setBrightness(
-        Theme.of(context).brightness == Brightness.dark ? Brightness.light : Brightness.dark,
+      Theme.of(context).brightness == Brightness.dark
+          ? Brightness.light
+          : Brightness.dark,
     );
   }
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -50,7 +53,7 @@ class _HomePageState extends State<HomePage>{
               trailing: Icon(
                 Icons.lightbulb_outline,
               ),
-              onTap: (){
+              onTap: () {
                 changeBrightness();
               },
             ),
@@ -61,12 +64,12 @@ class _HomePageState extends State<HomePage>{
               trailing: Icon(
                 Icons.accessibility_new,
               ),
-              onTap: (){
+              onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (BuildContext context)=> About1(),
-                ),
+                    builder: (BuildContext context) => About1(),
+                  ),
                 );
               },
             ),
@@ -77,12 +80,12 @@ class _HomePageState extends State<HomePage>{
               trailing: Icon(
                 Icons.add_call,
               ),
-              onTap: (){
+              onTap: () {
                 Navigator.of(context).pop();
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (BuildContext context) => ContactUS(),
-                ),
+                  ),
                 );
               },
             ),
@@ -94,7 +97,7 @@ class _HomePageState extends State<HomePage>{
               trailing: Icon(
                 Icons.close,
               ),
-              onTap: (){
+              onTap: () {
                 Navigator.of(context).pop();
               },
             ),
@@ -109,12 +112,14 @@ class _HomePageState extends State<HomePage>{
             ),
             Material(
               child: InkWell(
-                onTap: (){
+                onTap: () {
                   Navigator.push(
-                    context,MaterialPageRoute(builder: (_){
-                    return InterviewTips();
-                  },
-                  ),
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) {
+                        return InterviewTips();
+                      },
+                    ),
                   );
                 },
                 child: ClipRRect(
@@ -136,12 +141,14 @@ class _HomePageState extends State<HomePage>{
             ),
             Material(
               child: InkWell(
-                onTap: (){
+                onTap: () {
                   Navigator.push(
-                    context,MaterialPageRoute(builder: (_){
-                    return InterviewVideos();
-                  },
-                  ),
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) {
+                        return InterviewVideos();
+                      },
+                    ),
                   );
                 },
                 child: ClipRRect(

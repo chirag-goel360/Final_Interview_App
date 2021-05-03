@@ -23,6 +23,7 @@ class InterviewVideos extends StatelessWidget {
     );
   }
 }
+
 class InterviewVid extends StatefulWidget {
   @override
   _InterviewVidState createState() => _InterviewVidState();

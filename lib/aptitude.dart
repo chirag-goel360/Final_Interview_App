@@ -6,6 +6,7 @@ class Aptitude extends StatefulWidget {
   @override
   _AptitudeState createState() => _AptitudeState();
 }
+
 class _AptitudeState extends State<Aptitude> {
   @override
   Widget build(BuildContext context) {
@@ -32,12 +33,12 @@ class _AptitudeState extends State<Aptitude> {
               child: FutureBuilder(
                 future: DefaultAssetBundle.of(context).loadString(
                   'load_json/aptiround.json',
-                  ),
-                builder: (context, snapshot){
+                ),
+                builder: (context, snapshot) {
                   var mydata = jsonDecode(snapshot.data.toString());
                   return ListView.builder(
-                    itemBuilder: (BuildContext context, int index){
-                      index = index+1;
+                    itemBuilder: (BuildContext context, int index) {
+                      index = index + 1;
                       return Card(
                         color: Colors.black45,
                         shape: RoundedRectangleBorder(
@@ -52,7 +53,8 @@ class _AptitudeState extends State<Aptitude> {
                           splashColor: Colors.black54,
                           onTap: () {
                             Navigator.push(
-                              context, MaterialPageRoute(
+                              context,
+                              MaterialPageRoute(
                                 builder: (context) => Scaffold(
                                   appBar: AppBar(
                                     title: Text(
@@ -62,7 +64,7 @@ class _AptitudeState extends State<Aptitude> {
                                   ),
                                   body: Stack(
                                     fit: StackFit.expand,
-                                    children :<Widget>[
+                                    children: <Widget>[
                                       Image(
                                         image: AssetImage(
                                           "assets/picapti.png",
@@ -73,15 +75,17 @@ class _AptitudeState extends State<Aptitude> {
                                       ),
                                       Container(
                                         padding: EdgeInsets.only(
-                                          top:10.0,
+                                          top: 10.0,
                                           left: 10.0,
                                           right: 10.0,
                                         ),
                                         child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.stretch,
                                           children: <Widget>[
                                             Text(
-                                              "Ques $index. "+mydata[index-1]['question'],
+                                              "Ques $index. " +
+                                                  mydata[index - 1]['question'],
                                               style: TextStyle(
                                                 fontWeight: FontWeight.bold,
                                                 fontSize: 24.0,
@@ -90,11 +94,12 @@ class _AptitudeState extends State<Aptitude> {
                                             ),
                                             Padding(
                                               padding: EdgeInsets.only(
-                                                top:5.0,
+                                                top: 5.0,
                                               ),
                                             ),
                                             Text(
-                                              "Answer:\n"+mydata[index-1]['answer'],
+                                              "Answer:\n" +
+                                                  mydata[index - 1]['answer'],
                                               style: TextStyle(
                                                 fontSize: 20.0,
                                                 color: Colors.white,
@@ -106,7 +111,7 @@ class _AptitudeState extends State<Aptitude> {
                                     ],
                                   ),
                                 ),
-                            ),
+                              ),
                             );
                           },
                           child: Column(
@@ -114,11 +119,11 @@ class _AptitudeState extends State<Aptitude> {
                             children: <Widget>[
                               Padding(
                                 padding: EdgeInsets.only(
-                                  top:3.0,
+                                  top: 3.0,
                                 ),
                               ),
                               Text(
-                                "Ques $index. "+mydata[index-1]['question'],
+                                "Ques $index. " + mydata[index - 1]['question'],
                                 style: TextStyle(
                                   fontSize: 20.0,
                                   fontWeight: FontWeight.w500,
@@ -126,7 +131,7 @@ class _AptitudeState extends State<Aptitude> {
                                 ),
                               ),
                               Text(
-                                "Company: "+mydata[index-1]['company'],
+                                "Company: " + mydata[index - 1]['company'],
                                 style: TextStyle(
                                   fontSize: 16.0,
                                   fontWeight: FontWeight.w900,
@@ -143,7 +148,7 @@ class _AptitudeState extends State<Aptitude> {
                         ),
                       );
                     },
-                    itemCount: mydata == null ? 0:mydata.length,
+                    itemCount: mydata == null ? 0 : mydata.length,
                   );
                 },
               ),

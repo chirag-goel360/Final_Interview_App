@@ -21,6 +21,7 @@ class InterviewTips extends StatelessWidget {
     );
   }
 }
+
 class InterviewTip extends StatefulWidget {
   @override
   _InterviewTipState createState() => _InterviewTipState();
@@ -46,7 +47,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -57,7 +58,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -68,7 +69,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -79,7 +80,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -90,7 +91,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -101,7 +102,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -112,7 +113,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
           Text(
@@ -123,7 +124,7 @@ class _InterviewTipState extends State<InterviewTip> {
           ),
           Padding(
             padding: EdgeInsets.only(
-              top:5,
+              top: 5,
             ),
           ),
         ],
