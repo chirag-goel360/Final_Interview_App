@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 const APP_VERSION = 'v1.0';
 const APP_NAME = 'Interview Questions';
-final KAppIcon = Image.asset(
+final kappicon = Image.asset(
   'assets/launcher_icon.png',
   height: 64.0,
   width: 64.0,

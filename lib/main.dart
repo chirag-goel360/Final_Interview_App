@@ -64,51 +64,33 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
             icon: Icon(
               Icons.school,
             ),
-            title: Text(
-              "Home",
-              style: TextStyle(
-                color: Colors.purple,
-              ),
-            ),
+            label: "Home",
             backgroundColor: Colors.lightBlueAccent,
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.people,
             ),
-            title: Text(
-              "HR",
-              style: TextStyle(
-                color: Colors.purple,
-              ),
-            ),
+            label: "HR",
             backgroundColor: Colors.lightBlueAccent,
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.laptop_chromebook,
             ),
-            title: Text(
-              "Technical",
-              style: TextStyle(
-                color: Colors.purple,
-              ),
-            ),
+            label: "Technical",
             backgroundColor: Colors.lightBlueAccent,
           ),
           BottomNavigationBarItem(
             icon: Icon(
               Icons.palette,
             ),
-            title: Text(
-              "Aptitude",
-              style: TextStyle(
-                color: Colors.purple,
-              ),
-            ),
+            label: "Aptitude",
             backgroundColor: Colors.lightBlueAccent,
           ),
         ],
+        selectedLabelStyle: TextStyle(color: Colors.red),
+        selectedFontSize: 16,
       ),
     );
   }

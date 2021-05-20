@@ -57,7 +57,7 @@ class About extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final header = ListTile(
-      leading: KAppIcon,
+      leading: kappicon,
       title: Text(
         APP_NAME,
       ),
