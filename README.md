@@ -2,7 +2,7 @@
 
 A Flutter Application which provides Answers to Questions which are asked by Companies like Google,Microsoft,Adobe,Infosys etc. in Interviews.
 
-Me and My friend tried our best to provide best Answer to these Questions. Some help is taken from famous sites like hitbulleyes,geeks for geek,hackerrank for Answer to Questions. 
+Me and My friend tried our best to provide best Answer to these Questions. Some help is taken from famous sites like hitbulleyes,geeks for geek,hackerrank for Answer to Questions.
 
 ### Getting Started
 
@@ -11,7 +11,7 @@ For learning flutter you can take help from these sites and videos.
 A few resources to get you started for your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook) 
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 - [Place to Learn: Flutter Tutorials](https://www.youtube.com/playlist?list=PLR2qQy0Zxs_UdqAcaipPR3CG1Ly57UlhV)
 
 For help getting started with Flutter, view
