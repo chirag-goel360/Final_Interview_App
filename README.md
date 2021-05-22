@@ -147,14 +147,14 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
 }
 ```
 ### Android
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android1.jpg)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android2.jpg)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android3.jpg)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android4.jpg)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android5.jpg)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android6.jpg)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/android7.jpg)
 
 ### Website
-![]()
-![]()
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/website1.png)
+![](https://github.com/chirag-goel360/Final_Interview_App/blob/master/website2.png)
