@@ -1,9 +1,25 @@
-# interview_ques
+# interview_application
 
 A Flutter Application which provides Answers to Questions which are asked by Companies like Google,Microsoft,Adobe,Infosys etc. in Interviews.
 
 Me and My friend tried our best to provide best Answer to these Questions. Some help is taken from famous sites like hitbulleyes,geeks for geek,hackerrank for Answer to Questions.
 
+
+### Possible Error
+Error: The method 'ancestorStateOfType' isn't defined for the class 'BuildContext'.
+
+For Solution
+
+Open the dynamic_theme.dart file by double clicking the import 'package:dynamic_theme/dynamic_theme.dart';
+
+then replace
+
+```
+static DynamicThemeState of(BuildContext context) {
+    return context.findAncestorStateOfType<DynamicThemeState>();
+    //return context.ancestorStateOfType(const TypeMatcher<DynamicThemeState>());
+  }
+```
 ### Getting Started
 
 For learning flutter you can take help from these sites and videos.
@@ -130,10 +146,15 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   }
 }
 ```
-![Image ](https://i.ibb.co/565BVCG/3.jpg)
-![Image ](https://i.ibb.co/9YJTfB7/1.jpg)
-![Image ](https://i.ibb.co/vLRtsQk/2.jpg)
-![Image ](https://i.ibb.co/JH0tLRB/5.jpg)
-![Image ](https://i.ibb.co/1Q4xjTc/6.jpg)
-![Image ](https://i.ibb.co/fMgK19T/7.jpg)
-![Image ](https://i.ibb.co/P1yZ9BG/8.jpg)
+### Android
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+![]()
+
+### Website
+![]()
+![]()

@@ -1,8 +1,8 @@
 import 'package:dynamic_theme/dynamic_theme.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:interview_ques/tips.dart';
-import 'package:interview_ques/video.dart';
+import 'tips.dart';
+import 'video.dart';
 import 'about.dart';
 import 'contact.dart';
 
